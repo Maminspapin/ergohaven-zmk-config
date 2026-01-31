@@ -34,7 +34,7 @@
             #binding-cells = <0>;
             bindings = <&kp LC(SPACE)>;
             label = "TO_RU";
-            wait-ms = <0>;
+            wait-ms = <50>;
             tap-ms = <30>;
         };
 
@@ -43,7 +43,7 @@
             #binding-cells = <0>;
             bindings = <&kp LC(SPACE)>;
             label = "TO_EN";
-            wait-ms = <0>;
+            wait-ms = <50>;
             tap-ms = <30>;
         };
 
