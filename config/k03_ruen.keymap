@@ -23,7 +23,7 @@
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <15 16>;
+            key-positions = <3 4>;
             layers = <0>;
         };
     };
@@ -34,16 +34,14 @@
             #binding-cells = <0>;
             bindings = <&kp LC(SPACE)>;
             label = "TO_RU";
-            wait-ms = <50>;
             tap-ms = <30>;
         };
 
         to_en: to_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(SPACE)>;
+            bindings = <&kp LS(SPACE)>;
             label = "TO_EN";
-            wait-ms = <50>;
             tap-ms = <30>;
         };
 
